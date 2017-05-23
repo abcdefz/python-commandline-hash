@@ -28,4 +28,4 @@ if __name__ == '__main__':
 				print("sha256 || %s" % hashlib.sha256(f.read()).hexdigest())
 				print("sha512 || %s" % hashlib.sha512(f.read()).hexdigest())
 		else:
-			print("%s is not a invalid file path" % file_path)
+			print("%s is an invalid file path" % file_path)
